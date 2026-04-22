@@ -1,4 +1,4 @@
-# Motorcycle Project
+# 🛵 Motorcycle Project
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
@@ -8,11 +8,11 @@
 Система для оренди мотоциклів та зручного управління мотопарком.
 Лабораторна робота з дисципліни "Управління ІТ-проєктами".
 
-## Технології
+## 🛠️ Технології
 * **Backend:** Python
 * **Frontend:** JavaScript (React / Angular)
 
-## Інструкція із запуску (Installation)
+## 🚀 Інструкція із запуску (Installation)
 1. Зклонуйте репозиторій локально:
    `git clone https://github.com/KPNU-DAVTeam-2026/motorcycle-project.git`
 2. Встановіть необхідні залежності для Python та JavaScript.
@@ -24,7 +24,7 @@
 **Чому ми обрали MIT?**
 Ми обрали ліцензію МІТ, оскільки наш проєкт є навчальним Open Source рішенням. Ми хочемо дозволити вільне використання коду, але знімаємо з себе відповідальність за можливі збитки (пункт "As Is" у ліцензії).
 
-## � Команда
+## 👥 Команда
 * **Tech Lead:** [Демченко Дмитро](https://github.com/Keyd8n)
 * **Legal Officer / PM:** [Анатолій Гумельник](https://github.com/AnatoliyKN1B22)
 * **Content Creator / Dev:** [Вальцер Вадим](https://github.com/VadimValcerKN1B22)
