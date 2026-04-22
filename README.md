@@ -26,7 +26,7 @@
 * **Legal Officer / PM:** [Анатолій Гумельник](https://github.com/AnatoliyKN1B22)
 * **Content Creator / Dev:** [Вальцер Вадим](https://github.com/VadimValcerKN1B22)
 
-### Legal Note
+## Legal Note
 
 Цей проєкт розповсюджується під ліцензією MIT. Це означає, що ви можете використовувати код у власних цілях безкоштовно.
 
