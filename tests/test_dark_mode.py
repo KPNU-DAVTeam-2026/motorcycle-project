@@ -1,9 +1,9 @@
 import unittest
 import tkinter as tk
 from src.dark_mode_gui import MotoRentalApp
-
+іогапоцщшпшщоцущшкуопщшівуп
 class TestDarkMode(unittest.TestCase):
-    def setUp(self):
+    def setUp(self)
         self.root = tk.Tk()
         # Withdraw the window so it doesn't actually pop up during tests
         self.root.withdraw()
