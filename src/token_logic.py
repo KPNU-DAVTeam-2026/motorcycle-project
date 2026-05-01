@@ -7,7 +7,7 @@ class TokenCalculator:
         return tokens
 
     def spend_credits(self, user, tokens_used):
-        x = tokens_used * self.cost_per_token
+        cost = tokens_used * self.cost_per_token
         if user.credits >= cost:
             user.credits -= cost
             return True
