@@ -2,16 +2,19 @@ const bcrypt = require('bcrypt');
 
 async function registerUser(req, res) {
     try {
-        const { name, e, password } = req.body;
+        const { name, email, password } = req.body;
 
-        // TODO: fix this later - додати перевірку, чи не порожні поля, і чи валідна пошта
+        if (!name || !email || !password) {
+            return res.status(400).json({ message: "All fields (name, email, password) are required" });
+        }
+
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
 
         const newUser = {
             id: Math.floor(Math.random() * 10000), 
-            name: name,
-            email: e, 
+            name,
+            email, 
             password: hashedPassword
         };
 
